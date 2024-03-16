@@ -1,7 +1,3 @@
---[[ I'm horny rawr -zurs]]--
-
-
-
 local InventoryChanger = { Functions = {}, Selected = {}, Skins = {}, Owned = {} };
 
 do
@@ -331,7 +327,7 @@ do
                 }
             }
         },
-        ['Galaxy'] = {
+        --[[['Galaxy'] = {
             border_color = newColorSequence(Color3.new(0, 0, 1)),
             particle = {
                 properties = {
@@ -453,7 +449,7 @@ do
                 }
             }
         },
-       --[[['Water'] = {
+        ['Water'] = {
             tween_duration = 1.25,
             tween_type = 'Both',
             beam_width = 0.125,
@@ -481,7 +477,7 @@ do
                     equipped = false,
                     C0 = newCFrame(0.0941314697, 0.593509138, 0.0191040039, -1, 0, 0, 0, 1, 0, 0, 0, -1)
                 }
-            }]]
+            }
         },
         ['GPO'] = {
             color = newColorSequence(Color3.new(1, 0.666667, 0)),
@@ -604,7 +600,7 @@ do
                 }
             }
         },
-        ['Shadow'] = {
+        --[[['Shadow'] = {
             Color = ColorSequence.new(Color3.new(0.560784, 0.470588, 1), Color3.new(0.576471, 0.380392, 1)),
             ['Rifle'] = {
                 Equipped = false
@@ -619,7 +615,7 @@ do
                 Location = meshes.Shadow.RevolverGhost,
                 CFrame = CFrame.new(1.52587891e-05, 0, 0, 1, 0, 8.74227766e-08, 0, 1, 0, -8.74227766e-08, 0, 1)
             }
-        }
+        }]]
         ['Halloween23'] = {
             guns = {
                 ['[Revolver]'] = {
